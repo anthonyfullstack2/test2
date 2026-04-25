@@ -1,0 +1,29 @@
+import logo from "../Images/logo-t.png";
+import Posts from "./Posts";
+import SharePost from "./SharePost";
+import User from "./User";
+import { Container, Row, Col } from "reactstrap"; //import the Reactstrap Components
+
+const Home = () => {
+  return (
+    <div>
+      <Row>
+        <Col md={3}>
+          <User />
+        </Col>
+        <Col md={9}>
+          <SharePost />
+        </Col>
+      </Row>
+
+      <Row>
+        <Col md={3}></Col>
+        <Col md={9}>
+          <Posts />
+        </Col>
+      </Row>
+    </div>
+  );
+};
+
+export default Home;
