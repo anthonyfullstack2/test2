@@ -5,7 +5,7 @@ const About = () => {
       <br />
       IT Lecturer
       <br />
-      UTAS Shinas - Oman - by Mr. Anthony
+      UTAS Shinas
     </div>
   );
 };
